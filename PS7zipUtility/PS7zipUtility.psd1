@@ -1,5 +1,5 @@
 @{
-    ModuleVersion          = "0.0.6"
+    ModuleVersion          = "0.0.5"
 
     # Modules that must be imported into the global environment prior to importing this module
     RequiredModules        = @()

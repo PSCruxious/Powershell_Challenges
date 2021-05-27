@@ -13,7 +13,7 @@ PS7zipUtility requires the following modules to be available:
 
 | ModuleName    | ModuleVersion |
 | ----------    | ------------- |
-| PS7zipUtility |     0.0.4     |
+| PS7zipUtility |     0.0.5     |
 
 
 ## Version
@@ -25,4 +25,3 @@ PS7zipUtility requires the following modules to be available:
 | 0.0.3 | Testing Performed        |
 | 0.0.4 | Commenting               |
 | 0.0.5 | Wrote Pester/Testing     |
-| 0.0.6 | Wrote Help File          |

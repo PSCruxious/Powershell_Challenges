@@ -7,14 +7,6 @@ Module that has 2 functions:
 -Install-7Zip will install the requested variation of 7Zip.
 -Uninstall-7Zip will uninstall any 7Zip variation.
 
-## Requirements
-
-PS7zipUtility requires the following modules to be available:
-
-| ModuleName    | ModuleVersion |
-| ----------    | ------------- |
-| PS7zipUtility |     0.0.5     |
-
 
 ## Version
 

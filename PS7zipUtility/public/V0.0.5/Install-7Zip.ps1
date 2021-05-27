@@ -98,7 +98,7 @@ Function Install-7Zip {
             if ($null -ne ($OverrideURI -as [System.URI]).AbsoluteURI -and $OverrideURI -like "*msi*") {
 
                 #Define Install Path
-                $InstallationPath = Join-Path -Path "C:\Windows\Temp\" -ChildPath (Split-Path $Stable -Leaf)
+                $InstallationPath = Join-Path -Path "C:\Windows\Temp\" -ChildPath (Split-Path $OverrideURI -Leaf)
 
                 #Send script block to $ComputerName PSSession
                 Invoke-Command -Session $Session -ScriptBlock { 

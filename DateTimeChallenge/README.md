@@ -28,7 +28,7 @@ These instructions will guide you through setting up the project on your local m
 
 ### Invoke-Build
 
-The `Invoke-Build` function is an automation tool for sourcing necessary script files and executing them. It processes scripts from public, private, and class-based directories and then runs the specified example and test scripts.
+The `Invoke-Build` function is an automation tool for sourcing necessary script files and executing them. It processes scripts from public, private, and class-based directories and then runs test scripts.
 
 #### Parameters
 
@@ -39,13 +39,12 @@ The `Invoke-Build` function is an automation tool for sourcing necessary script 
 1. Determines the current script path.
 2. Processes scripts from `Public`, `Private`, and `Classes` directories.
 3. Executes the test script.
-4. Executes the examples script.
 
 #### Running the Challenge
 
 1. Download the challenge to your local machine.
 2. Navigate to the root directory of the repository in PowerShell.
-3. Type in `Invoke-Build` function to process all the scripts and execute the example and test scripts.
+3. Type in `Invoke-Build` function to process all the scripts and execute the test scripts.
 
 ### Expected Output for Examples
 

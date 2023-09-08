@@ -13,3 +13,4 @@ if (-not $pesterModule) {
 
 #Run the tests
 Invoke-Pester -Path '.\Test\Test.ps1'
+#Full output if ran in VSCode Debug (f5) Invoke-Pester -Path '.\Test\Test.ps1' -Output Detailed

@@ -4,6 +4,14 @@ This repository contains a PowerShell scripting challenge, complete with functio
 
 ---
 
+## Is Second Tuesday
+
+![Success](Demo/Success.gif)
+
+## Not Second Tuesday
+
+![Failure](Demo/Fail.gif)
+
 ## Table of Contents
 
 - [How to Run the Challenge](#how-to-run-the-challenge)

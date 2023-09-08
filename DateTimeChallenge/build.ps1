@@ -1,7 +1,6 @@
 function Invoke-Build {
     [CmdletBinding()]
     param(
-        [string]$ExampleScript = '.\examples.ps1',
         [string]$TestScript = '.\Test\invoketest.ps1'
     )
 
@@ -32,15 +31,6 @@ function Invoke-Build {
         } else {
             Write-Warning "Test script $TestScript not found."
         }
-
-        if (Test-Path $ExampleScript) {
-            Write-Verbose "Executing $ExampleScript"
-            & $ExampleScript
-        } else {
-            Write-Warning "Example script $ExampleScript not found."
-        }
-
-
     }
 }
 #You can add -Verbose to get more verbose outputs

@@ -12,4 +12,4 @@ if (-not $pesterModule) {
 }
 
 #Run the tests
-Invoke-Pester -Path '.\Test\Test.ps1' -Output Detailed
+Invoke-Pester -Path '.\Test\Test.ps1'
